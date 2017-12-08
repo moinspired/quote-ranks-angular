@@ -1,0 +1,9 @@
+<div>
+  <p>{{ quote.author}} says
+    {{ quote.quote }}
+  </p>
+  <p>{{ quote.votes }}</p>
+  <a (click)="decreaseVote()" href="#">Vote Down</a>
+  <a (click)="increaseVote()" href="#">Vote Up</a>
+  <a (click)="destroyQuote()" href="#">Delete</a>
+</div> 
